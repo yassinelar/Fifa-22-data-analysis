@@ -1,5 +1,7 @@
 # Fifa-22-data-analysis (PCA, Clustering)
 
+ ![Image1](https://user-images.githubusercontent.com/71329302/153768327-151c9e53-5e41-41d6-ad81-08219ff9a979.jpg)
+
 <b> This dataset contains information and statistics about football players' in FIFA 2022 </b>.
 
 The first part was dedicated to <b> understanding and manipulating data </b> (Player ratings' distribution, ratings' distribution by player characteristic, top10 nationalities present in the game, best player statistics...)
@@ -10,7 +12,6 @@ Secondly, I performed a <b> PCA </b> and projected data on the first two compone
 
 ![Capture2](https://user-images.githubusercontent.com/71329302/153767762-7728088b-05ed-494f-a716-364309f0cf77.JPG)
 
-
 Then, based on the <b> inertia </b> (according to the number of clusters),
 
 ![Capture3](https://user-images.githubusercontent.com/71329302/153767845-bedf94cd-5683-42b1-8afe-5188042eb376.JPG)
@@ -18,7 +19,6 @@ Then, based on the <b> inertia </b> (according to the number of clusters),
 we can consider a partition into <b> 4 clusters </b> (which seems logical as in football there are 4 categories of players: Strikers, midfielders, defenders, goalkeepers).
 
 ![Capture](https://user-images.githubusercontent.com/71329302/153767656-cecbf55a-1457-491e-9874-69f46d55d32e.JPG)
-
 
 After performing clustering, the objectif is to define our clusters based on the means of the different characteristics of the cluster. For example, given the high mean of "finishing", "Dribbling", "BallControl"... we can deduce that we are dealing with the strikers' cluster.
 
